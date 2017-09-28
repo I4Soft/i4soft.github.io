@@ -1,0 +1,124 @@
+{
+  "undergraduate": [
+    {
+      "name": "Renan Ofugi Mikami",
+      "research": " Concolic Testing",
+      "date": "01/02/2017",
+      "mail": "renan.ofugi@gmail.com ",
+      "homepage": ""
+    },
+    {
+      "name": "Marcelo Marcinio Pereira Junior",
+      "research": "Software inteligente para auxílio na maratona de programação",
+      "date": "03/16/2017",
+      "mail": "marcelo.jr63@gmail.com",
+      "homepage": ""
+    },
+    {
+      "name": "Matheus Cardoso Duarte Santos",
+      "research": "Static Analysis",
+      "date": "20/01/2016",
+      "mail": "mtesedd@gmail.com",
+      "homepage": ""
+    },
+    {
+      "name": "Arthur de Oliveira Barbosa Lacerda",
+      "research": "Quarto elemento: Maratona de Programação",
+      "date": "06/03/2017",
+      "mail": "arthurlacerda@inf.ufg.br ",
+      "homepage": ""
+    },
+    {
+      "name": "Larissa Santos de Azevedo",
+      "research": "A Benchmark for evaluating automated software repair in Android projects",
+      "date": "01/03/2017",
+      "mail": " larissaazevedo@inf.ufg.br",
+      "homepage": ""
+    },
+    {
+      "name": "Laura Caroline Ribeiro de Melo",
+      "research": "Automated Bug Repair with Visual Studio IDE",
+      "date": "22/08/2017",
+      "mail": "laura.c.r.melo@gmail.com",
+      "homepage": ""
+    }
+  ],
+  "master": [
+    {
+      "name": "Diogo Machado de Freitas",
+      "research": "Search-based fault localization",
+      "date": "10/08/2016",
+      "mail": "diogofreitas@inf.ufg.br",
+      "homepage": ""
+    },
+    {
+      "name": "Eduardo Farias de Souza",
+      "research": "Fitness function improvement applied to automated software repair",
+      "date": "11/01/2014",
+      "mail": "eduardosouza@inf.ufg.br",
+      "homepage": ""
+    },
+    {
+      "name": "Gleibson Wemerson Silva Borges",
+      "research": "Machine Learning Techniques",
+      "date": "01/08/2017",
+      "mail": "gleibsonborges@inf.ufg.br",
+      "homepage": ""
+    },
+    {
+      "name": "Sávio Menezes Sampaio",
+      "research": "IVF/NSGAII: In Vitro Fertilization Method Coupled to Multi Objective Evolutionary Algorithm NSGA-II",
+      "date": "01/08/2017",
+      "mail": "saviosampaio@inf.ufg.br",
+      "homepage": ""
+    }
+    
+  ],
+  "phd": [
+    {
+      "name": "Rodrigo de Sousa Gomide",
+      "research": "Uma abordagem para classiﬁcação do assunto de postagens sobre software",
+      "date": "10/08/2017",
+      "mail": "rodrigo.gomide@ifgoiano.edu.br",
+      "homepage": ""
+    },
+    {
+      "name": "André Assis Lôbo de Oliveira",
+      "research": "Mutant analysis on fault localization context",
+      "date": "01/02/2014",
+      "mail": "andreoliveira@inf.ufg.br",
+      "homepage": ""
+    },
+    {
+      "name": "Altino Dantas Basílio Neto",
+      "research": "Automated Software Repair",
+      "date": "01/02/2017",
+      "mail": "altinodantas@hotmail.com",
+      "homepage": ""
+    },
+    {
+      "name": "Lucas Whinter de Alcantra Roque",
+      "research": "Automated Software Repair",
+      "date": "01/02/2017",
+      "mail": "lucasroque7@gmail.com",
+      "homepage": ""
+    },
+    {
+      "name": "Leonardo Afonso Amorim",
+      "research": "Evaluating Fixes in Program Repair with Word2Vec / Accelerating Dimensionality Reduction Algorithms for Computational Intelligence Applications",
+      "date": "08/01/2016",
+      "mail": "leonardoafonso@inf.ufg.br",
+      "homepage": ""
+    }
+    
+  ],
+  "former": [
+    {
+      "name": "Vinícius Paulo Lopes de Oliveira",
+      "research": "Genetic representation and operators for automated software repair",
+      "date": "10/08/2017-14/08/2017",
+      "mail": "viniciusdeoliveira@inf.ufg.br ",
+      "homepage": ""
+    }
+  ]
+}
