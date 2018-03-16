@@ -12,7 +12,8 @@
 
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-	
+
+	<script type="text/javascript" src="assets/js/lodash.core.min.js"></script>	
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/members.js"></script>
 
@@ -53,7 +54,7 @@
           <div class="page-tittle" id="team-banner"><h1> <span>Our</span> Team</h1></div>  
 
           <div class="row" id="team-banner-thumbnails">
-            <h2>PROFESSORS</h2>
+            <h2>Professors</h2>
               <div clss="row">
                 <div class="col-sm-3">
                   <a href="http://ic1.inf.ufg.br/site_celso/">
@@ -97,7 +98,7 @@
             <li role="presentation" class="active"><a href="#all-members" aria-controls="all-members" role="tab" data-toggle="tab"><h3>All</h3></a></li>
             <li role="presentation"><a href="#phd-students" aria-controls="phd-students" role="tab" data-toggle="tab"><h3>PhD Students</h3></a></li>
             <li role="presentation"><a href="#master-students" aria-controls="master-students" role="tab" data-toggle="tab"><h3>Master's Students</h3></a></li>
-            <li role="presentation"><a href="#undergratuate-students" aria-controls="undergratuate-students" role="tab" data-toggle="tab"><h3>Undergraduate Students</h3></a></li>
+            <li role="presentation"><a href="#undergraduate-students" aria-controls="undergraduate-students" role="tab" data-toggle="tab"><h3>Undergraduate Students</h3></a></li>
             <li role="presentation"><a href="#former-members" aria-controls="former-members" role="tab" data-toggle="tab"><h3>Former</h3></a></li>
           </ul>
 
@@ -110,198 +111,35 @@
 			  			  
               <!-- two students by one row -->
               <div class="row">
-                <div class="col-sm-6"> 
-                  <div class="row" id="row-member">
-                    <div class="col-lg-2 col-sm-3 col-xs-4" id="img-member">
-                      <img src="assets/images/team/user.svg" class="img-thumbnail"/>
-                    </div>
-                    <div class="col-lg-10 col-sm-9 col-xs-8">
-                      <h4>André Assis Lôbo de Oliveira</h4>
-                      <p><b>Year:</b> Since 2014 | andreoliveira@inf.ufg.br | <a href="">Webpage</a><br />
-                      <b>Research:</b> Mutant analysis on fault localization context</p>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="col-sm-6"> 
-                  <div class="row" id="row-member">
-                    <div class="col-lg-2 col-sm-3 col-xs-4" id="img-member">
-                      <img src="assets/images/team/students/altino-dantas.png" class="img-thumbnail"/>
-                    </div>
-                    <div class="col-lg-10 col-sm-9 col-xs-8">
-                      <h4>Altino Dantas Basílio Neto</h4>
-                      <p><b>Year:</b> First | <a href="">Webpage</a><br />
-                      <b>Research:</b> Automatic Software Repair</p>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-
-              <!-- two students by one row -->
-              
-              <div class="row">
-
-                <div class="col-sm-6"> 
-                  
-                  <div class="row" id="row-member">
-                    <div class="col-lg-2 col-sm-3 col-xs-4" id="img-member">
-                      <img src="assets/images/team/students/lucas-roque.png" class="img-thumbnail"/>
-                    </div>
-                    <div class="col-lg-10 col-sm-9 col-xs-8">
-                      <h4>Lucas Whinter de Alcantara Roque</h4>
-                      <p><b>Year:</b> First | <a href="">Webpage</a><br />
-                      <b>Research:</b> Automatic Software Repair</p>
-                    </div>
-                  </div>
-
-                </div>
-                
-                <div class="col-sm-6"> 
-                
-                <div class="row" id="row-member">
-                    <div class="col-lg-2 col-sm-3 col-xs-4" id="img-member">
-                      <img src="assets/images/team/students/leonardo.png" class="img-thumbnail"/>
-                    </div>
-                    <div class="col-lg-10 col-sm-9 col-xs-8">
-                      <h4>Leonardo Afonso Amorim</h4>
-                      <p><b>Since:</b> 08/01/2016 | leonardoafonso@inf.ufg.br | <a href="">Webpage</a><br />
-                      <b>Research:</b> Evaluating Fixes in Program Repair with Word2Vec / Accelerating Dimensionality Reduction Algorithms for Computational Intelligence Applications</p>
-                    </div>
-                  </div>
-                  
-                </div>
+                <div id="all-phd"></div>
               </div>
 
               <hr /><h4>Master's students</h4> <br />
               <div class="row">
-
-                <div class="col-sm-6"> 
-                  
-                  <div class="row" id="row-member">
-                    <div class="col-lg-2 col-sm-3 col-xs-4" id="img-member">
-                      <img src="assets/images/team/students/diogo.png" class="img-thumbnail"/>
-                    </div>
-                    <div class="col-lg-10 col-sm-9 col-xs-8">
-                      <h4>Diogo Machado de Freitas</h4>
-                      <p><b>Year:</b> First | diogofreitas@inf.ufg.br  | <a href="">Webpage</a><br />
-                      <b>Research:</b> Search-based fault localization</p>
-                    </div>
-                  </div>
-
-                </div>
-                
-                <div class="col-sm-6"> 
-
-                  <div class="row" id="row-member">
-                    <div class="col-lg-2 col-sm-3 col-xs-4" id="img-member">
-                      <img src="assets/images/team/students/eduardo.png" class="img-thumbnail"/>
-                    </div>
-                    <div class="col-lg-10 col-sm-9 col-xs-8">
-                      <h4>Eduardo Faria de Souza</h4>
-                      <p><b>Since:</b> 11/01/2014 | eduardosouza@inf.ufg.br <br />
-                      <b>Research:</b> Fitness function improvement applied to automated software repair</p>
-                    </div>
-                  </div>
-                                    
-                </div>
+			  
+				<div id="all-master"></div>
+				
               </div>
 
               <hr /><h4>Undergraduate students</h4> <br />
               <div class="row">
-
-                <div class="col-sm-6"> 
-                  
-                  <div class="row" id="row-member">
-                    <div class="col-lg-2 col-sm-3 col-xs-4" id="img-member">
-                      <img src="assets/images/team/students/renan.png" class="img-thumbnail"/>
-                    </div>
-                    <div class="col-lg-10 col-sm-9 col-xs-8">
-                      <h4>Renan Ofugi Mikami</h4>
-                      <p><b>Year:</b> First | renan.ofugi@gmail.com <br />
-                      <b>Research:</b> Concolic Testing</p>
-                    </div>
-                  </div>
-
-                </div>
-                
-                <div class="col-sm-6"> 
-                  <div class="row" id="row-member">
-                    <div class="col-lg-2 col-sm-3 col-xs-4" id="img-member">
-                      <img src="assets/images/team/students/matheus.png" class="img-thumbnail"/>
-                    </div>
-                    <div class="col-lg-10 col-sm-9 col-xs-8">
-                      <h4>Matheus Cardoso Duarte Santos</h4>
-                      <p><b>Since:</b> 12/20/16 | mtesedd@gmail.com | <a href="">Webpage</a><br />
-                      <b>Research:</b> Static Analysis</p>
-                    </div>
-                  </div>                  
-                </div>
-              </div>
-
-              <div class="row">
-
-                <div class="col-sm-6"> 
-                  
-                  <div class="row" id="row-member">
-                    <div class="col-lg-2 col-sm-3 col-xs-4" id="img-member">
-                      <img src="assets/images/team/students/marcelo.png" class="img-thumbnail"/>
-                    </div>
-                    <div class="col-lg-10 col-sm-9 col-xs-8">
-                      <h4>Marcelo Marcinio Pereira Junior</h4>
-                      <p><b>Since:</b> 03/16/2017 | marcelo.jr63@gmail.com  <br />
-                      <b>Research:</b> Software inteligente para auxílio na maratona de programação</p>
-                    </div>
-                  </div>
-
-                </div>
-                
-                <div class="col-sm-6"> 
-                  <div class="row" id="row-member">
-                    
-                    <div class="col-lg-2 col-sm-3 col-xs-4" id="img-member">
-                      <img src="assets/images/team/students/arthur.png" class="img-thumbnail"/>
-                    </div>
-                    <div class="col-lg-10 col-sm-9 col-xs-8">
-                      <h4>Arthur de Oliveira Barbosa Lacerda</h4>
-                      <p><b>Since:</b> 03/06/2017 | arthurlacerda@inf.ufg.br <br />
-                      <b>Research:</b> Quarto elemento: Maratona de Programação</p>
-                    </div>
-
-                  </div>                  
-                </div>
+				<div id="all-undergraduate"></div>
               </div>
 			  
 			  <hr /><h4>Former</h4> <br />
               <div class="row">
 
-                <div class="col-sm-6"> 
-
-                  <div class="row" id="row-member">
-                    <div class="col-lg-2 col-sm-3 col-xs-4" id="img-member">
-                      <img src="assets/images/team/students/vinicios.png" class="img-thumbnail"/>
-                    </div>
-                    <div class="col-lg-10 col-sm-9 col-xs-8">
-                      <h4>Vinícius Paulo Lopes de Oliveira</h4>
-                      <p><b>Since:</b> 02/01/2015 | viniciusdeoliveira@inf.ufg.br  <br />
-                      <b>Research:</b> Genetic representation and operators for automated software repair </p>
-                    </div>
-                  </div> 
-                                    
-                </div>
-                
-                
+                <div id="all-former"></div>
+                                
               </div>
 
             </div>
 
             <div role="tabpanel" class="tab-pane" id="phd-students">
 
-              <!-- two students by one row -->
               <div class="row">
 			  
-                <div id="all-phd"></div>
+                <div id="phds"></div>
               
 			  </div>
                 
@@ -310,17 +148,16 @@
             <div role="tabpanel" class="tab-pane" id="master-students">
                 <div class="row">
 					
-					<div id="all-master"></div>
+					<div id="masters"></div>
                 
               </div>
 
             </div>
 
-            <div role="tabpanel" class="tab-pane" id="undergratuate-students">
+            <div role="tabpanel" class="tab-pane" id="undergraduate-students">
 
               <div class="row">
-				<div id="all-undergratuate"></div>
-                
+				<div id="undergraduates"></div>
               </div>
               
             </div>
@@ -328,7 +165,7 @@
 				
 				<div class="row">
 					
-					<div id="all-former"></div>
+					<div id="formers"></div>
 				
 				</div>
 			

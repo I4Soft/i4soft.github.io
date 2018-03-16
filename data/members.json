@@ -2,45 +2,57 @@
   "undergraduate": [
     {
       "name": "Renan Ofugi Mikami",
-      "research": " Concolic Testing",
+      "research": "Concolic Testing",
       "date": "01/02/2017",
       "mail": "renan.ofugi@gmail.com ",
-      "homepage": ""
+      "homepage": "",
+	  "avatar": "assets/images/team/students/renan.png",
+	  "active": true
     },
     {
       "name": "Marcelo Marcinio Pereira Junior",
       "research": "Software inteligente para auxílio na maratona de programação",
       "date": "03/16/2017",
       "mail": "marcelo.jr63@gmail.com",
-      "homepage": ""
+      "homepage": "",
+	  "avatar": "assets/images/team/students/marcelo.png",
+	  "active": true
     },
     {
       "name": "Matheus Cardoso Duarte Santos",
       "research": "Static Analysis",
       "date": "20/01/2016",
       "mail": "mtesedd@gmail.com",
-      "homepage": ""
+      "homepage": "",
+	  "avatar": "assets/images/team/students/matheus.png",
+	  "active": true
     },
     {
       "name": "Arthur de Oliveira Barbosa Lacerda",
       "research": "Quarto elemento: Maratona de Programação",
       "date": "06/03/2017",
       "mail": "arthurlacerda@inf.ufg.br ",
-      "homepage": ""
+      "homepage": "",
+	  "avatar": "assets/images/team/students/arthur.png",
+	  "active": true
     },
     {
       "name": "Larissa Santos de Azevedo",
       "research": "A Benchmark for evaluating automated software repair in Android projects",
       "date": "01/03/2017",
       "mail": " larissaazevedo@inf.ufg.br",
-      "homepage": ""
+      "homepage": "",
+	  "avatar": "assets/images/team/students/larissa.png",
+	  "active": true
     },
     {
       "name": "Laura Caroline Ribeiro de Melo",
       "research": "Automated Bug Repair with Visual Studio IDE",
       "date": "22/08/2017",
       "mail": "laura.c.r.melo@gmail.com",
-      "homepage": ""
+      "homepage": "",
+	  "avatar": "assets/images/team/students/laura.png",
+	  "active": true
     }
   ],
   "master": [
@@ -49,28 +61,36 @@
       "research": "Search-based fault localization",
       "date": "10/08/2016",
       "mail": "diogofreitas@inf.ufg.br",
-      "homepage": ""
+      "homepage": "http://lattes.cnpq.br/7696595776900598",
+	  "avatar": "assets/images/team/students/diogo.png",
+	  "active": true
     },
     {
       "name": "Eduardo Farias de Souza",
       "research": "Fitness function improvement applied to automated software repair",
       "date": "11/01/2014",
       "mail": "eduardosouza@inf.ufg.br",
-      "homepage": ""
+      "homepage": "",
+	  "avatar": "assets/images/team/students/eduardo.png",
+	  "active": true
     },
     {
       "name": "Gleibson Wemerson Silva Borges",
       "research": "Machine Learning Techniques",
       "date": "01/08/2017",
       "mail": "gleibsonborges@inf.ufg.br",
-      "homepage": ""
+      "homepage": "http://lattes.cnpq.br/4539726734153205",
+	  "avatar": "assets/images/team/students/gleibson.png",
+	  "active": true
     },
     {
       "name": "Sávio Menezes Sampaio",
       "research": "IVF/NSGAII: In Vitro Fertilization Method Coupled to Multi Objective Evolutionary Algorithm NSGA-II",
       "date": "01/08/2017",
       "mail": "saviosampaio@inf.ufg.br",
-      "homepage": ""
+      "homepage": "http://lattes.cnpq.br/8298486891093090",
+	  "avatar": "assets/images/team/students/savio.png",
+	  "active": true
     }
     
   ],
@@ -80,35 +100,54 @@
       "research": "Uma abordagem para classiﬁcação do assunto de postagens sobre software",
       "date": "10/08/2017",
       "mail": "rodrigo.gomide@ifgoiano.edu.br",
-      "homepage": ""
+      "homepage": "http://lattes.cnpq.br/8727570102457133",
+	  "avatar": "assets/images/team/students/gomide.png",
+	  "active": false
     },
     {
       "name": "André Assis Lôbo de Oliveira",
       "research": "Mutant analysis on fault localization context",
       "date": "01/02/2014",
       "mail": "andreoliveira@inf.ufg.br",
-      "homepage": ""
+      "homepage": "http://lattes.cnpq.br/8285586679841434",
+	  "avatar": "assets/images/team/students/andre-lobo.png",
+	  "active": true
     },
     {
       "name": "Altino Dantas Basílio Neto",
       "research": "Automated Software Repair",
       "date": "01/02/2017",
       "mail": "altinodantas@hotmail.com",
-      "homepage": ""
+      "homepage": "http://lattes.cnpq.br/9728564907445828",
+	  "avatar": "assets/images/team/students/altino-dantas.png",
+	  "active": true
     },
     {
-      "name": "Lucas Whinter de Alcantra Roque",
+      "name": "Lucas Winther de Alcantara Roque",
       "research": "Automated Software Repair",
       "date": "01/02/2017",
       "mail": "lucasroque7@gmail.com",
-      "homepage": ""
+      "homepage": "http://lattes.cnpq.br/1935280492617205",
+	  "avatar": "assets/images/team/students/lucas-roque.png",
+	  "active": true
     },
     {
       "name": "Leonardo Afonso Amorim",
       "research": "Evaluating Fixes in Program Repair with Word2Vec / Accelerating Dimensionality Reduction Algorithms for Computational Intelligence Applications",
       "date": "08/01/2016",
       "mail": "leonardoafonso@inf.ufg.br",
-      "homepage": ""
+      "homepage": "http://lattes.cnpq.br/6936205932284568",
+	  "avatar": "assets/images/team/students/leonardo.png",
+	  "active": true
+    },
+    {
+      "name": "Vilson Soares de Siqueira",
+      "research": "Automated Software Repair",
+      "date": "01/08/2017",
+      "mail": "vilson@inf.ufg.br",
+      "homepage": "http://lattes.cnpq.br/4587101916896168",
+	  "avatar": "assets/images/team/students/vilson.png",
+	  "active": true
     }
     
   ],
@@ -118,7 +157,9 @@
       "research": "Genetic representation and operators for automated software repair",
       "date": "10/08/2017-14/08/2017",
       "mail": "viniciusdeoliveira@inf.ufg.br ",
-      "homepage": ""
+      "homepage": "http://lattes.cnpq.br/3160389407449721",
+	  "avatar": "assets/images/team/students/vinicius.png",
+	  "active": true
     }
   ]
 }
