@@ -26,7 +26,7 @@ $("document").ready(function(){
 				html += '<div style="clear:both">';
 				
             $("#all-undergraduate").append(html);
-			$("#undergratuates").append(html);
+			$("#undergraduates").append(html);
 			
 					
         });

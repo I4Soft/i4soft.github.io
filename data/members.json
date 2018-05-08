@@ -66,11 +66,11 @@
 	  "active": true
     },
     {
-      "name": "Eduardo Farias de Souza",
+      "name": "Eduardo Faria de Souza",
       "research": "Fitness function improvement applied to automated software repair",
       "date": "11/01/2014",
       "mail": "eduardosouza@inf.ufg.br",
-      "homepage": "",
+      "homepage": "http://lattes.cnpq.br/6260768837365885",
 	  "avatar": "assets/images/team/students/eduardo.png",
 	  "active": true
     },
@@ -147,6 +147,15 @@
       "mail": "vilson@inf.ufg.br",
       "homepage": "http://lattes.cnpq.br/4587101916896168",
 	  "avatar": "assets/images/team/students/vilson.png",
+	  "active": true
+    },
+    {
+      "name": "Eldair Fabricio Dornelles",
+      "research": "Automated Software Repair",
+      "date": "22/03/2018",
+      "mail": "eldair.dornelles@gmail.com",
+      "homepage": "http://lattes.cnpq.br/5773436711611442",
+	  "avatar": "assets/images/team/students/eldair.png",
 	  "active": true
     }
     
