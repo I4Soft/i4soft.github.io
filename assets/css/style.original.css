@@ -1,0 +1,215 @@
+/**
+	- I4Soft 2017
+	- CSS by Altino Dantas 
+	    
+	     *** Color palette ***
+
+	     #63a31f	darkgreen	
+	     #a5be00	lightgreen
+
+	     #61b2ed	lightblue
+	     #055d81	darkblue
+	     
+	     #efefef	lightgray
+	     #282E33	darkgray
+	     #596869	midgray
+
+	     *** Color palette ***
+
+**/
+
+/***************************************/
+/******* custom fonts definitions *******/
+/***************************************/
+
+
+@font-face {
+    font-family: 'font-black';
+    src: url('../fonts/roboto-black.woff2') format('woff2'),
+         url('../fonts/roboto-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'font-bold';
+    src: url('../fonts/roboto-bold.woff2') format('woff2'),
+         url('../fonts/roboto-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'font-condensed';
+    src: url('../fonts/roboto-condensed.woff2') format('woff2'),
+         url('../fonts/roboto-condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'font-light';
+    src: url('../fonts/roboto-light.woff2') format('woff2'),
+         url('../fonts/roboto-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'font-regular';
+    src: url('../fonts/roboto-regular.woff2') format('woff2'),
+         url('../fonts/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'font-thin';
+    src: url('../fonts/roboto-thin.woff2') format('woff2'),
+         url('../fonts/roboto-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* 
+  font-family available
+  
+  'font-regular'
+  'font-light'
+  'font-bold'
+  'font-thin'
+  'font-condensed'
+  'font-black'
+
+ */
+
+/************************************************/
+/*********** body and common settings ***********/
+/************************************************/
+
+*{ margin: 0;padding: 0 }
+
+body {
+	font-family: 'font-regular';
+	background:#282E33 url('../images/background-mobile.png') left no-repeat fixed;
+	color: #282E33;
+	line-height: 180%;
+}
+
+@media (min-width: 768px) {
+	body { background:#282E33 url('../images/background.png') left no-repeat fixed; }
+}
+
+a { color: #63a31f;}
+a:hover, a:focus { color: #4fa138;}
+
+
+/************************************************/
+/**************** top concerns  **************/
+/************************************************/
+
+#brand { margin-top: -5px; }
+#top-menu { font-family: 'font-condensed'; margin-top: 15px; font-size:16px; text-transform: uppercase;}
+#top-menu a { color: #656567;}
+#top-menu a:hover { color: #000}
+
+
+/************************************************/
+/**************** main containers  **************/
+/************************************************/
+
+.full-banner { margin-top: 80px; text-align: center; color: #efefef;}
+.inner-banner { padding: 60px 40px 0 40px; margin-bottom: 0; border-bottom: 10px solid #055D81; }
+.inner-banner .banner-text { font-size: 64px; font-family: 'font-black'; color: #efefef; line-height: 120%}  
+.inner-banner .banner-text > span { font-family: 'font-thin'; }  
+.inner-banner .banner-text-less { text-transform: uppercase; letter-spacing: 0.5em; color: #63a31f; font-size: 20px; line-height: 160%}
+.inner-banner .banner-box { padding: 20px; color:#efefef; background-color: #63a31f; margin-top: 60px; margin-bottom: 0; font-size: 18px; font-family: 'font-regular';}
+
+/* adjusting banner typography for small devices */
+@media(max-width: 400px){
+	.inner-banner .banner-text { font-size: 34px; } 
+	.inner-banner .banner-text-less {letter-spacing: 0.2em; font-size: 14px}
+}
+
+.full-content { background-color: #FFF;}
+.inner-content { padding: 40px 20px; }
+.inner-content .icons { padding: 0 40px; text-align: center;}
+.inner-content .icons img { margin: 20px 0;}
+
+.full-bottom {}
+.inner-bottom { color: #efefef; padding-top: 15px; padding-bottom: 10px;}
+.inner-bottom .logo-bottom { text-align: right;}
+
+.content-page { }
+
+/******************************************************/
+/******************* hns definitions  *****************/
+/******************************************************/
+
+h1 { font-size: 42px; font-family: 'font-black'; text-align: center; letter-spacing:-0.05em; margin-top: 15px;}
+h2 { font-family: 'font-bold';font-size: 26px; text-transform: capitalize; margin: 10px 0;}
+h3 { font-family: 'font-condensed';font-size: 20px; text-transform: capitalize; margin: 10px 0;}
+h4 { font-family: 'font-bold';font-size: 16px; text-transform: capitalize; margin: 5px 0;}
+
+h1 > span, h2 > span, h3 > span { font-family: 'font-light'}
+
+/************************************************/
+/************** overwrites on bootstrap *********/
+/************************************************/
+
+.navbar-header { height: 78px;}
+.navbar-fixed-top { border-bottom: solid 10px #282E33; }
+.navbar-toggle { margin-top:20px;}
+.navbar-default .navbar-nav > .active > a { background: none; }
+.navbar-default .navbar-nav > .active > a:hover { background: none; }
+#top-menu .active > a { color: #63a31f; background-color: none;}
+
+
+/************************************************/
+/************** specific pages *****************/
+/************************************************/
+
+.page-tittle h1 { font-size: 32px; padding: 15px 0;}
+
+#contact { text-align: center; padding: 40px;}
+#contact p > span { font-family: 'font-black'}
+#contact iframe { padding: 5px; border: solid 1px #EFEFEF;}
+
+#publications { text-align: left;}
+#publications .tab-pane > ul{ padding: 20px;}
+#publications .tab-pane ul li{ margin-bottom: 20px; margin-left: 25px;}
+
+@media (max-width: 400px) {
+	.nav-tabs h3 { font-size: 14px;}
+	#team .tab-content .row h4 { font-size: 14px;} 
+}
+
+#team-banner-thumbnails { padding: 14px 0;}
+#team-banner-thumbnails h2 { font-size: 18px; color: #63a31f;}
+#team-banner-thumbnails h3 { font-size: 16px;}
+
+#team .tab-content > div { text-align: left; line-height: 120%; padding: 25px 0; font-size: 12px;}
+#team .tab-content #img-member { text-align: center;}
+#team .tab-content #row-member { margin-bottom: 20px;}
+

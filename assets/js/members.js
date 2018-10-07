@@ -26,9 +26,8 @@ $("document").ready(function(){
 				html += '<div style="clear:both">';
 				
             $("#all-undergraduate").append(html);
-			$("#undergraduates").append(html);
+			      $("#undergraduates").append(html);
 			
-					
         });
 		
 		var masters = result.master.filter(activeMember);

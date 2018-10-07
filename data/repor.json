@@ -1,0 +1,93 @@
+{
+   "weekly":[
+   {
+         "number":6,
+         "date":"10-02-2018",
+         "speaker":"Lucas Roque",
+         "link":"../files/presentations/meeting_06.pdf",
+         "title":"Reparing Crashes in Android Apps"
+      },
+		{
+         "number":5,
+         "date":"09-25-2018",
+         "speaker":"Deuslírio Júnior",
+         "link":"../files/presentations/meeting_05.pdf",
+         "title":"Neutrality and Epistasis in Progras Space"
+      },
+		{
+         "number":4,
+         "date":"09-11-2018",
+         "speaker":"Diogo de Freitas",
+         "link":"../files/presentations/meeting_04.pdf",
+         "title":"Automatic Software Repair: A Survey"
+      },
+      {
+         "number":3,
+         "date":"09-04-2018",
+         "speaker":"Eduardo Souza",
+         "link":"../files/presentations/meeting_03.pdf",
+         "title":"Context-Aware Patch Generation for Better Automated Program Repair"
+      },
+      {
+         "number":2,
+         "date":"08-29-2018",
+         "speaker":"Altino Dantas",
+         "link":"../files/presentations/meeting_02.pdf",
+         "title":"Neuro-Symbolic Program Corrector for Introductory Programming Assignments"
+      },
+      {
+         "number":1,
+         "date":"08-21-2018",
+         "speaker":"Sávio Sampáio",
+         "link":"../files/presentations/meeting_01.pdf",
+         "title":"Genetic Improvement of Software: A Comprehensive Survey"
+      }
+   ],
+   "other":[
+      {
+         "description": "Keynote (Portuguese only)",
+         "date":"07-02-2018",
+         "speaker":"Altino Dantas",
+         "link":"../files/presentations/keynote_at_ufc.pdf",
+         "title":"Reparo Automatizado de Software"
+      },
+      {
+         "description": "Benchmark presentation",
+         "date":"10-01-2018",
+         "speaker":"Altino Dantas",
+         "link":"../files/presentations/droidbugs.pdf",
+         "title":"DroidBugs: An Android benchmark for automated program repair"
+      } 
+   ],
+   "paper":[
+      {
+         "in": "IEEE Congress on Evolutionary Computation",
+         "date":"07-09-2018",
+         "speaker":"Celso G. Camilo.Junior",
+         "link":"../files/presentations/cec2018.pdf",
+         "title":"Mutation-based Evolutionary Fault Localization"
+      },
+      {
+         "in": "IEEE International Joint Conference on Neural Networks",
+         "date":"07-09-2018",
+         "speaker":"Celso G. Camilo.Junior",
+         "link":"../files/presentations/ijcnn2018.pdf",
+         "title":"A new word embedding approach to evaluate potential fixes for automated program repair"
+      },
+      {
+         "in": "Brazilian Workshop on Search-based Software Engineering",
+         "date":"09-19-2018",
+         "speaker":"Lucas Roque",
+         "link":"../files/presentations/wesb2018.pdf",
+         "title":"Análise de estilo de programação com Rede Neural Recorrente para aprovação automática de Pull Request"
+      }, 
+      {
+            "in": "Brazilian Workshop on Search-based Software Engineering",
+            "date":"09-24-2017",
+            "speaker":"Altino Dantas",
+            "link":"../files/presentations/ternarius.pdf",
+            "title":"Ternarius: Um operador de mutação Para o reparo de software Baseado em busca com representação subpatch"
+      } 
+   ]
+   
+}

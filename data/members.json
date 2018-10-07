@@ -81,7 +81,16 @@
       "mail": "gleibsonborges@inf.ufg.br",
       "homepage": "http://lattes.cnpq.br/4539726734153205",
 	  "avatar": "assets/images/team/students/gleibson.png",
-	  "active": true
+	  "active": false
+    },
+    {
+      "name": "Deuslirio da Silva Junior",
+      "research": "Fault Localization",
+      "date": "15/02/2018",
+      "mail": "msc2018100358@inf.ufg.br",
+      "homepage": "http://lattes.cnpq.br/9426509294797070",
+	    "avatar": "assets/images/team/students/deuslirio.png",
+	    "active": true
     },
     {
       "name": "Sávio Menezes Sampaio",

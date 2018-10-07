@@ -33,10 +33,8 @@ a:hover, a:focus{color:#4fa138;}
 .inner-content{padding:40px 20px;}
 .inner-content .icons{padding:0 40px;text-align:center;}
 .inner-content .icons img{margin:20px 0;}
-.full-bottom{}
 .inner-bottom{color:#efefef;padding-top:15px;padding-bottom:10px;}
 .inner-bottom .logo-bottom{text-align:right;}
-.content-page{}
 h1{font-size:42px;font-family:'font-black';text-align:center;letter-spacing:-0.05em;margin-top:15px;}
 h2{font-family:'font-bold';font-size:26px;text-transform:capitalize;margin:10px 0;}
 h3{font-family:'font-condensed';font-size:20px;text-transform:capitalize;margin:10px 0;}
@@ -54,11 +52,10 @@ h1 > span, h2 > span, h3 > span{font-family:'font-light'}
 #contact iframe{padding:5px;border:solid 1px #EFEFEF;}
 #publications{text-align:left;}
 #publications .tab-pane > ul{padding:20px;}
-#publications .tab-pane ul li{margin-bottom:20px;}
+#publications .tab-pane ul li{margin-bottom:20px;margin-left: 25px;}
 @media (max-width:400px){.nav-tabs h3{font-size:14px;}
 #team .tab-content .row h4{font-size:14px;}
 }
-#team-banner{}
 #team-banner-thumbnails{padding:14px 0;}
 #team-banner-thumbnails h2{font-size:18px;color:#63a31f;}
 #team-banner-thumbnails h3{font-size:16px;}
