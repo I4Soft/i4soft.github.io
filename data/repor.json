@@ -61,6 +61,13 @@
    ],
    "paper":[
       {
+            "in": "The Genetic and Evolutionary Computation Conference",
+            "date":"07-18-2018",
+            "speaker":"Eduardo Faria",
+            "link":"../files/presentations/gecco2018.pdf",
+            "title":"A Novel Fitness Function for Automated Program Repair Based on Source Code Checkpoints"
+         },
+      {
          "in": "IEEE Congress on Evolutionary Computation",
          "date":"07-09-2018",
          "speaker":"Celso G. Camilo.Junior",
@@ -84,9 +91,16 @@
       {
             "in": "Brazilian Workshop on Search-based Software Engineering",
             "date":"09-24-2017",
+            "speaker":"Diogo de Freitas",
+            "link":"../files/presentations/wesb2017diogo.pdf",
+            "title":"Genetic Programming-based Composition of Fault Localization Heuristics"
+      } ,
+      {
+            "in": "Brazilian Workshop on Search-based Software Engineering",
+            "date":"09-24-2017",
             "speaker":"Altino Dantas",
             "link":"../files/presentations/ternarius.pdf",
-            "title":"Ternarius: Um operador de mutação Para o reparo de software Baseado em busca com representação subpatch"
+            "title":"Ternarius: Um operador de mutação para o reparo de Software Baseado em Busca com Representação Subpatch"
       } 
    ]
    
