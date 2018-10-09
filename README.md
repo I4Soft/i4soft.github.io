@@ -2,7 +2,7 @@
 
 The Intelligence for Software Research Group site.
 
-# Who we are #
+## Who we are ##
 
 *Intelligence for Software* (I4Soft) is a research group on Computational Intelligence approaches applied to software development challenges, specially Software Testing and Repairing.
 
