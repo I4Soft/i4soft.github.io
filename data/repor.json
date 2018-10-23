@@ -1,6 +1,13 @@
 {
    "weekly":[
-   {
+      {
+            "number":7,
+            "date":"10-09-2018",
+            "speaker":"Vilson Soares",
+            "link":"../files/presentations/meeting_07.pdf",
+            "title":"Automated repair of mobile friendly problems in web pages"
+      },
+      {
          "number":6,
          "date":"10-02-2018",
          "speaker":"Lucas Roque",
