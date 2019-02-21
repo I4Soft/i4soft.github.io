@@ -16,7 +16,7 @@
       "mail": "marcelo.jr63@gmail.com",
       "homepage": "",
 	  "avatar": "assets/images/team/students/marcelo.png",
-	  "active": true
+	  "active": false
     },
     {
       "name": "Matheus Cardoso Duarte Santos",
@@ -25,7 +25,7 @@
       "mail": "mtesedd@gmail.com",
       "homepage": "",
 	  "avatar": "assets/images/team/students/matheus.png",
-	  "active": true
+	  "active": false
     },
     {
       "name": "Arthur de Oliveira Barbosa Lacerda",
@@ -34,7 +34,7 @@
       "mail": "arthurlacerda@inf.ufg.br ",
       "homepage": "",
 	  "avatar": "assets/images/team/students/arthur.png",
-	  "active": true
+	  "active": false
     },
     {
       "name": "Larissa Santos de Azevedo",
@@ -52,19 +52,10 @@
       "mail": "laura.c.r.melo@gmail.com",
       "homepage": "",
 	  "avatar": "assets/images/team/students/laura.png",
-	  "active": true
+	  "active": false
     }
   ],
   "master": [
-    {
-      "name": "Diogo Machado de Freitas",
-      "research": "Search-based fault localization",
-      "date": "10/08/2016",
-      "mail": "diogofreitas@inf.ufg.br",
-      "homepage": "http://lattes.cnpq.br/7696595776900598",
-	  "avatar": "assets/images/team/students/diogo.png",
-	  "active": true
-    },
     {
       "name": "Eduardo Faria de Souza",
       "research": "Fitness function improvement applied to automated software repair",
@@ -87,7 +78,7 @@
       "name": "Deuslirio da Silva Junior",
       "research": "Fault Localization",
       "date": "15/02/2018",
-      "mail": "msc2018100358@inf.ufg.br",
+      "mail": "deslirio_junior@discente.ufg.br",
       "homepage": "http://lattes.cnpq.br/9426509294797070",
 	    "avatar": "assets/images/team/students/deuslirio.png",
 	    "active": true
@@ -114,19 +105,10 @@
 	  "active": false
     },
     {
-      "name": "André Assis Lôbo de Oliveira",
-      "research": "Mutant analysis on fault localization context",
-      "date": "01/02/2014",
-      "mail": "andreoliveira@inf.ufg.br",
-      "homepage": "http://lattes.cnpq.br/8285586679841434",
-	  "avatar": "assets/images/team/students/andre-lobo.png",
-	  "active": true
-    },
-    {
       "name": "Altino Dantas Basílio Neto",
       "research": "Automated Software Repair",
       "date": "01/02/2017",
-      "mail": "altinodantas@hotmail.com",
+      "mail": "altino.dantas@discente.ufg.br",
       "homepage": "http://lattes.cnpq.br/9728564907445828",
 	  "avatar": "assets/images/team/students/altino-dantas.png",
 	  "active": true
@@ -159,15 +141,14 @@
 	  "active": true
     },
     {
-      "name": "Eldair Fabricio Dornelles",
-      "research": "Automated Software Repair",
-      "date": "22/03/2018",
-      "mail": "eldair.dornelles@gmail.com",
-      "homepage": "http://lattes.cnpq.br/5773436711611442",
-	  "avatar": "assets/images/team/students/eldair.png",
+      "name": "Diogo Machado de Freitas",
+      "research": "Search-based fault localization",
+      "date": "10/08/2016",
+      "mail": "diogofreitas@inf.ufg.br",
+      "homepage": "http://lattes.cnpq.br/7696595776900598",
+	  "avatar": "assets/images/team/students/diogo.png",
 	  "active": true
     }
-    
   ],
   "former": [
     {
@@ -177,6 +158,24 @@
       "mail": "viniciusdeoliveira@inf.ufg.br ",
       "homepage": "http://lattes.cnpq.br/3160389407449721",
 	  "avatar": "assets/images/team/students/vinicius.png",
+	  "active": true
+    },
+    {
+      "name": "André Assis Lôbo de Oliveira",
+      "research": "Mutant analysis on fault localization context",
+      "date": "01/02/2014",
+      "mail": "andreoliveira@inf.ufg.br",
+      "homepage": "http://lattes.cnpq.br/8285586679841434",
+	  "avatar": "assets/images/team/students/andre-lobo.png",
+	  "active": true
+    },
+    {
+      "name": "Eldair Fabricio Dornelles",
+      "research": "Automated Software Repair",
+      "date": "22/03/2018",
+      "mail": "eldair.dornelles@gmail.com",
+      "homepage": "http://lattes.cnpq.br/5773436711611442",
+	  "avatar": "assets/images/team/students/eldair.png",
 	  "active": true
     }
   ]
