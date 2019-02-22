@@ -3,6 +3,8 @@ $("document").ready(function(){
 	$.getJSON("data/members.list.json", function(result){
 		
     var undergraduates = getMemberByType("undergraduate", result.members)
+
+    undergraduates.sort(compareNames)
 		
     $.each(undergraduates, function(i, member){			
       
@@ -28,7 +30,9 @@ $("document").ready(function(){
     
       });
 		
-		var masters = getMemberByType("master", result.members)
+    var masters = getMemberByType("master", result.members)
+    
+    masters.sort(compareNames)
 		
 		$.each(masters, function(i, member){			
 				
@@ -54,7 +58,9 @@ $("document").ready(function(){
 					
         });
 		
-		var phds = getMemberByType("doctoral", result.members)
+    var phds = getMemberByType("doctoral", result.members)
+    
+    phds.sort(compareNames)
 		
 		$.each(phds, function(i, member){			
 				
@@ -78,7 +84,9 @@ $("document").ready(function(){
 			      $("#phds").append(html);
         });
 		
-		var formers = getMemberByType("former", result.members)
+    var formers = getMemberByType("former", result.members)
+    
+    formers.sort(compareNames)
 		
 		$.each(formers, function(i, member){			
 				
@@ -104,6 +112,18 @@ $("document").ready(function(){
   });
 	
 });
+
+function compareNames(a, b) {
+    var nameA = a.name.toUpperCase(); // ignore upper and lowercase
+    var nameB = b.name.toUpperCase(); // ignore upper and lowercase
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+    return 0;
+  }
 
 function getMemberByType(mType, membersVector){
   // Return all active members of a given type: undergraduate | master | doctoral | former
