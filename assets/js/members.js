@@ -105,12 +105,6 @@ $("document").ready(function(){
 	
 });
 
-function activeMember(member){
-	if(member.active)
-		return true;
-	return false;
-}
-
 function getMemberByType(mType, membersVector){
   // Return all active members of a given type: undergraduate | master | doctoral | former
   return membersVector.filter(function(member){
