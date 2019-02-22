@@ -1,13 +1,14 @@
 {
-  "undergraduate": [
+  "members": [
     {
       "name": "Renan Ofugi Mikami",
       "research": "Concolic Testing",
       "date": "01/02/2017",
       "mail": "renan.ofugi@gmail.com ",
       "homepage": "",
-	  "avatar": "assets/images/team/students/renan.png",
-	  "active": true
+      "avatar": "assets/images/team/students/renan.png", 
+      "position": "undergraduate",
+      "active": true
     },
     {
       "name": "Marcelo Marcinio Pereira Junior",
@@ -15,6 +16,7 @@
       "date": "03/16/2017",
       "mail": "marcelo.jr63@gmail.com",
       "homepage": "",
+      "position": "undergraduate",
 	  "avatar": "assets/images/team/students/marcelo.png",
 	  "active": false
     },
@@ -24,6 +26,7 @@
       "date": "20/01/2016",
       "mail": "mtesedd@gmail.com",
       "homepage": "",
+      "position": "undergraduate",
 	  "avatar": "assets/images/team/students/matheus.png",
 	  "active": false
     },
@@ -33,6 +36,7 @@
       "date": "06/03/2017",
       "mail": "arthurlacerda@inf.ufg.br ",
       "homepage": "",
+      "position": "undergraduate",
 	  "avatar": "assets/images/team/students/arthur.png",
 	  "active": false
     },
@@ -42,6 +46,7 @@
       "date": "01/03/2017",
       "mail": " larissaazevedo@inf.ufg.br",
       "homepage": "",
+      "position": "undergraduate",
 	  "avatar": "assets/images/team/students/larissa.png",
 	  "active": true
     },
@@ -51,17 +56,17 @@
       "date": "22/08/2017",
       "mail": "laura.c.r.melo@gmail.com",
       "homepage": "",
+      "position": "undergraduate",
 	  "avatar": "assets/images/team/students/laura.png",
 	  "active": false
-    }
-  ],
-  "master": [
+    },
     {
       "name": "Eduardo Faria de Souza",
       "research": "Fitness function improvement applied to automated software repair",
       "date": "11/01/2014",
       "mail": "eduardosouza@inf.ufg.br",
       "homepage": "http://lattes.cnpq.br/6260768837365885",
+      "position": "master",
 	  "avatar": "assets/images/team/students/eduardo.png",
 	  "active": true
     },
@@ -71,6 +76,7 @@
       "date": "01/08/2017",
       "mail": "gleibsonborges@inf.ufg.br",
       "homepage": "http://lattes.cnpq.br/4539726734153205",
+      "position": "master",
 	  "avatar": "assets/images/team/students/gleibson.png",
 	  "active": false
     },
@@ -80,8 +86,9 @@
       "date": "15/02/2018",
       "mail": "deslirio_junior@discente.ufg.br",
       "homepage": "https://deuslirio.github.io",
-	    "avatar": "assets/images/team/students/deuslirio.png",
-	    "active": true
+      "position": "master",
+        "avatar": "assets/images/team/students/deuslirio.png",
+        "active": true
     },
     {
       "name": "Sávio Menezes Sampaio",
@@ -89,18 +96,17 @@
       "date": "01/08/2017",
       "mail": "saviosampaio@inf.ufg.br",
       "homepage": "http://lattes.cnpq.br/8298486891093090",
+      "position": "master",
 	  "avatar": "assets/images/team/students/savio.png",
 	  "active": true
-    }
-    
-  ],
-  "phd": [
+    },
     {
       "name": "Rodrigo de Sousa Gomide",
       "research": "Uma abordagem para classiﬁcação do assunto de postagens sobre software",
       "date": "10/08/2017",
       "mail": "rodrigo.gomide@ifgoiano.edu.br",
       "homepage": "http://lattes.cnpq.br/8727570102457133",
+      "position": "doctoral",
 	  "avatar": "assets/images/team/students/gomide.png",
 	  "active": false
     },
@@ -110,6 +116,7 @@
       "date": "01/02/2017",
       "mail": "altino.dantas@discente.ufg.br",
       "homepage": "https://altinodantas.github.io",
+      "position": "doctoral",
 	  "avatar": "assets/images/team/students/altino-dantas.png",
 	  "active": true
     },
@@ -119,6 +126,7 @@
       "date": "01/02/2017",
       "mail": "lucasroque7@gmail.com",
       "homepage": "http://lattes.cnpq.br/1935280492617205",
+      "position": "doctoral",
 	  "avatar": "assets/images/team/students/lucas-roque.png",
 	  "active": true
     },
@@ -128,6 +136,7 @@
       "date": "08/01/2016",
       "mail": "leonardoafonso@inf.ufg.br",
       "homepage": "http://lattes.cnpq.br/6936205932284568",
+      "position": "doctoral",
 	  "avatar": "assets/images/team/students/leonardo.png",
 	  "active": true
     },
@@ -137,6 +146,7 @@
       "date": "01/08/2017",
       "mail": "vilson@inf.ufg.br",
       "homepage": "http://lattes.cnpq.br/4587101916896168",
+      "position": "doctoral",
 	  "avatar": "assets/images/team/students/vilson.png",
 	  "active": true
     },
@@ -146,17 +156,17 @@
       "date": "10/08/2016",
       "mail": "diogofreitas@inf.ufg.br",
       "homepage": "http://lattes.cnpq.br/7696595776900598",
+      "position": "doctoral",
 	  "avatar": "assets/images/team/students/diogo.png",
 	  "active": true
-    }
-  ],
-  "former": [
+    },
     {
       "name": "Vinícius Paulo Lopes de Oliveira",
       "research": "Genetic representation and operators for automated software repair",
       "date": "10/08/2017-14/08/2017",
       "mail": "viniciusdeoliveira@inf.ufg.br ",
       "homepage": "http://lattes.cnpq.br/3160389407449721",
+      "position": "former",
 	  "avatar": "assets/images/team/students/vinicius.png",
 	  "active": true
     },
@@ -166,6 +176,7 @@
       "date": "01/02/2014",
       "mail": "andreoliveira@inf.ufg.br",
       "homepage": "http://lattes.cnpq.br/8285586679841434",
+      "position": "former",
 	  "avatar": "assets/images/team/students/andre-lobo.png",
 	  "active": true
     },
@@ -175,6 +186,7 @@
       "date": "22/03/2018",
       "mail": "eldair.dornelles@gmail.com",
       "homepage": "http://lattes.cnpq.br/5773436711611442",
+      "position": "former",
 	  "avatar": "assets/images/team/students/eldair.png",
 	  "active": true
     }
