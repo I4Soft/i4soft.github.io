@@ -1,6 +1,16 @@
 {
   "members": [
     {
+      "name": "Marcelo de Castro Cardoso",
+      "research": "Utilização de abordagens evolutivas para otimização do itinerário de vendas a partir padrões de vendas de produtos",
+      "date": "08/2018",
+      "mail": "marcelocardoso@inf.ufg.br",
+      "homepage": "http://lattes.cnpq.br/6946713828332219",
+      "avatar": "assets/images/team/students/marcelo.doc.png", 
+      "position": "doctoral",
+      "active": true
+    },
+    {
       "name": "Renan Ofugi Mikami",
       "research": "Concolic Testing",
       "date": "01/02/2017",
