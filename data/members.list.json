@@ -1,5 +1,15 @@
 {
   "members": [
+	{
+		"name": "Marcos Vinicius Ribeiro Silva",
+		"research": "Diagnosis of Intellectual Deficiency With the use of Artificial Intelligence",
+		"date": "02/2019",
+		"mail": "marcosviniciusribeiro@inf.ufg.br",
+		"homepage": "https://marcosvsilva.github.io",
+		"avatar": "assets/images/team/students/marcos.png",
+		"position": "master", 
+		"active": true
+	},
     {
       "name": "Marcelo de Castro Cardoso",
       "research": "Utilização de abordagens evolutivas para otimização do itinerário de vendas a partir padrões de vendas de produtos",
