@@ -1,5 +1,3 @@
-# i4soft.com.br #
-
 ![i4soft Homepage](https://raw.githubusercontent.com/I4Soft/i4soft.github.io/master/assets/images/homepage.png)
 
 The Intelligence for Software Research Group site.
