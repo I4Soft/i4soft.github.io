@@ -1,5 +1,7 @@
 # i4soft.com.br #
 
+![i4soft Homepage](https://raw.githubusercontent.com/I4Soft/i4soft.github.io/master/assets/images/homepage.png)
+
 The Intelligence for Software Research Group site.
 
 ## Who we are ##
@@ -14,4 +16,5 @@ We have Undergraduate, Master and PhD students exploiting interesting and promis
 * Altino Dantas
 * Lucas Roque
 * Eduardo Faria
+* Marcos Vinicius
 * Diogo Stelle
