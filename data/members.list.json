@@ -102,7 +102,7 @@
     },
     {
       "name": "Deuslirio da Silva Junior",
-      "research": "Fault Localization",
+      "research": "Fault Localization Based on Data Flow",
       "date": "15/02/2018",
       "mail": "deslirio_junior@discente.ufg.br",
       "homepage": "https://deuslirio.github.io",
@@ -112,7 +112,7 @@
     },
     {
       "name": "Sávio Menezes Sampaio",
-      "research": "IVF/NSGAII: In Vitro Fertilization Method Coupled to Multi Objective Evolutionary Algorithm NSGA-II",
+      "research": "In Vitro Fertilization Method Coupled to Multi Objective Evolutionary Algorithms",
       "date": "01/08/2017",
       "mail": "saviosampaio@inf.ufg.br",
       "homepage": "http://lattes.cnpq.br/8298486891093090",
@@ -132,7 +132,7 @@
     },
     {
       "name": "Altino Dantas Basílio Neto",
-      "research": "Automated Software Repair",
+      "research": "Code Naturalness for Assisting Search-based Program Repair Methods",
       "date": "01/02/2017",
       "mail": "altino.dantas@discente.ufg.br",
       "homepage": "https://altinodantas.github.io",
