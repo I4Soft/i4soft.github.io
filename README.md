@@ -16,3 +16,4 @@ We have Undergraduate, Master and PhD students exploiting interesting and promis
 * Eduardo Faria
 * Marcos Vinicius
 * Diogo Stelle
+* Deuslirio Junior
